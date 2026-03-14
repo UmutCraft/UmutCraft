@@ -1,64 +1,25 @@
 body{
 margin:0;
 font-family:Arial;
-background:#111;
+background:#0f0f0f;
 color:white;
 text-align:center;
 }
 
 header{
-padding:100px 20px;
-background:linear-gradient(135deg,#3aa655,#1b5e20);
-}
-
-header h1{
-font-size:50px;
-margin:0;
+padding:120px;
+background:linear-gradient(135deg,#2e7d32,#1b5e20);
 }
 
 button{
-padding:10px 20px;
+padding:12px 25px;
+font-size:16px;
 border:none;
-background:#00ff88;
-color:black;
-font-weight:bold;
+border-radius:8px;
+background:#00ff99;
 cursor:pointer;
-border-radius:6px;
 }
 
-.about{
+.info{
 padding:40px;
-background:#1a1a1a;
-}
-
-.features{
-display:flex;
-justify-content:center;
-gap:20px;
-padding:40px;
-flex-wrap:wrap;
-}
-
-.card{
-background:#222;
-padding:20px;
-border-radius:10px;
-width:200px;
-transition:0.3s;
-}
-
-.card:hover{
-transform:scale(1.05);
-background:#2e2e2e;
-}
-
-.join{
-padding:40px;
-background:#1a1a1a;
-}
-
-footer{
-padding:20px;
-background:black;
-font-size:14px;
 }
