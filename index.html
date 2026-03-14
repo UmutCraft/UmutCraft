@@ -1,57 +1,21 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Enchanted Minecraft Server</title>
+<title>Minecraft Web Client</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<h1>ENCHANTED SMP</h1>
-<p>Macera burada başlıyor</p>
-<button onclick="copyIP()">IP Kopyala</button>
-</header>
-
-<section class="about">
-<h2>Server Hakkında</h2>
-<p>
-Survival tabanlı, ekonomi sistemi olan ve sürekli güncellenen
-Minecraft sunucusuna hoş geldin.
-</p>
-</section>
-
-<section class="features">
-
-<div class="card">
-<h3>⚔️ Survival</h3>
-<p>Gerçek survival deneyimi</p>
+<div id="ui">
+<input id="chatInput" placeholder="chat...">
 </div>
 
-<div class="card">
-<h3>💰 Ekonomi</h3>
-<p>Al-sat sistemi ile para kazan</p>
-</div>
+<canvas id="game"></canvas>
 
-<div class="card">
-<h3>👑 Rank Sistemi</h3>
-<p>Oyunda yüksel ve özel avantajlar kazan</p>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/three@0.158/build/three.min.js"></script>
+<script src="client.js"></script>
 
-</section>
-
-<section class="join">
-<h2>Sunucu IP</h2>
-<p id="ip">play.enchantedmc.net</p>
-<button onclick="copyIP()">Kopyala</button>
-</section>
-
-<footer>
-<p>© 2026 Enchanted Server</p>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
