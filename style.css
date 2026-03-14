@@ -1,25 +1,22 @@
-body{
+body {
 margin:0;
-font-family:Arial;
-background:#0f0f0f;
-color:white;
-text-align:center;
+overflow:hidden;
+background:black;
 }
 
-header{
-padding:120px;
-background:linear-gradient(135deg,#2e7d32,#1b5e20);
+#game {
+width:100vw;
+height:100vh;
+display:block;
 }
 
-button{
-padding:12px 25px;
-font-size:16px;
-border:none;
-border-radius:8px;
-background:#00ff99;
-cursor:pointer;
+#ui {
+position:absolute;
+bottom:10px;
+left:10px;
 }
 
-.info{
-padding:40px;
+#chatInput {
+padding:8px;
+font-size:14px;
 }
