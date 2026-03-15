@@ -1,0 +1,9 @@
+{
+ "servers":[
+  {
+   "name":"My Server",
+   "ip":"wss://paramc2.eagler.host",
+   "version":"1.8.8"
+  }
+ ]
+}
